@@ -49,7 +49,7 @@ iframe{
 }
 
 p, address {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -73,12 +73,28 @@ figcaption {
     font-weight: bold;
 }
 
-.dropdown-content {
-    display: none;
+form {
+    text-align: center;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+label {
+    font-size: 1.75rem;
+}
+input {
+    margin: 10px 30px 20px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+placeholder {
+    font-size: 1.75rem;
+}
+
+textarea {
+    border-radius: 10px;
+    border: #263238 solid 2px;
+    margin-top: 10px;
 }
 
 a {
@@ -99,6 +115,22 @@ a:hover {
     color: #E5E4E2;
 }
 
+select {
+    margin: 20px 8px;
+    font-size: 1.5rem;
+    border: #263238 solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 #underlined {
     text-decoration: underline;
 
@@ -114,4 +146,21 @@ a:hover {
     padding-bottom: 30px;
     border-radius: 20px;
     margin-bottom: 50px;
+}
+
+#form {
+    background-color: rgba(255, 255, 255, .7);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#button {
+    padding: 15px;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #263238;
+    background-color: transparent;
 }

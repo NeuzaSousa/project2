@@ -39,13 +39,37 @@
         </ul>
     </nav>
     <h2>Contact us</h2>
-    <form action="http://vip.groupehn.com:20003/html/infospost.php">
-        <input class="yourclass" id="lastname" type="text" name="lastname" />
-        <input class="yourclass" id="firstname" type="text" name="firstname" />
-        <input class="yourclass" id="mail" type="email" name="email" placeholder="yourmail@yahoo.com" />
-        <textarea class="yourclass" name="request" id="request" cols="66" rows="10"></textarea>
-        <select class="yourclass" name="country" id="country">
-        <button>Submit</button>
+    <p>Did you visit our store and loved our cupcakes? Would you like to order cupcakes?</p>
+    <p>Send us a message!</p>
+    <form action="http://vip.groupehn.com:20003/html/infospost.php" method="post" id="form">
+        <label for="lastname">Last Name:</label>
+        <input class="form" id="lastname" type="text" name="lastname" placeholder="Last Name"/>
+        <label for="firstname">First Name:</label>
+        <input class="form" id="firstname" type="text" name="firstname" placeholder="First Name"/>
+        <br>
+        <label for="mail">Email Address:</label>
+        <input class="form" id="mail" type="email" name="email" placeholder="yourmail@yahoo.com" />
+        <br>
+        <label for="request">Request:</label>
+        <br>
+        <textarea class="form" name="request" id="request" cols="66" rows="10" placeholder="Your request here..."></textarea>
+        <br>
+        <label for="country">Country of Origin:</label>
+        <select class="form" name="country" id="country">
+            <option value="austria">Austria</option>
+            <option value="belgium">Belgium</option>
+            <option value="france">France</option>
+            <option value="germany">Germany</option>
+            <option value="ireland">Ireland</option>
+            <option value="italy">Italy</option>
+            <option value="netherlands">Netherlands</option>
+            <option value="portugal" selected>Portugal</option>
+            <option value="spain">Spain</option>
+            <option value="switzerland">Switzerland</option>
+            <option value="uk">United Kingdom</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit" id="button">
     </form>
 </body>
 </html>
