@@ -15,36 +15,39 @@
     </head>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <a href="about.html">About us</a>
-                        <div class="dropdown-content">
-                            <a href="history.html">History</a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="news.html">News</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Photo Gallery</a>
-                </li>
-                <li>
-                    <div class="dropdown"><a href="contact.html">Contact us</a>
-                        <div class="dropdown-content">
-                            <a href="location.html">Location</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-        <h2>History</h2>
-        <p>It all started when Neo found out her daughter had celiac disorder and was also lactose intolerant while she was a baby, so Neo started baking gluten-free and vegan cakes.</p>
-        <p>The cakes, especially the cupcakes were such a huge success, Neo decided to start selling them so everybody with food restrictions could still have their cake and eat it too!</p>
+        <div class="container text-center">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-inline-flex">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About us</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item px-5" href="about.html">About</a></li>
+                            <li><a class="dropdown-item active px-5" href="history.html">History</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="gallery.html">Photo Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact us</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item px-5" href="contact.html">Contact</a></li>
+                                <li><a class="dropdown-item px-5" href="location.html">Location</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </nav> 
+                <div class="text-center text-dark">
+                <h2 class="h2">History</h2>
+                <p class="text-center text-dark">It all started when Neo found out her daughter had celiac disorder and was also lactose intolerant while she was a baby, so Neo started baking gluten-free and vegan cakes.</p>
+                <p class="text-center text-dark">The cakes, especially the cupcakes were such a huge success, Neo decided to start selling them so everybody with food restrictions could still have their cake and eat it too!</p>
+            </div>
+        </div>
     </body>
 </html>
