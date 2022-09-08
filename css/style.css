@@ -1,4 +1,4 @@
-html {
+/*html {
     font-family: 'Merriweather', serif;
     font-size: 10px;
   }
@@ -37,9 +37,9 @@ ul {
 }
 
 iframe{
-    margin-left: 170px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    display: block;
+    margin: 30px auto 50px auto;
+    border-radius: 10px;
 }
 
 p, address {
@@ -176,7 +176,6 @@ select {
 #wallnut {
     width: 450px;
     height: 450px;
-    margin-left: 275px;
-    margin-bottom: 50px;
-    margin-top: 0px;
-}
+    display: block;
+    margin: 0 auto 50px auto;
+}*/
